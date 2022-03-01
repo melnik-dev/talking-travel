@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="mask-icon" href="mask-icon.svg" color="#000000" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <link rel="stylesheet" href="css/style.min.css?_v=20220301143718" />
+  <title>Главная</title>
+</head>
+
+  <body>
+    <!-- Header -->
+    <div class="header__shadow">
+  <div class="container px-20">
+    <header class="header">
+      <div class="header__logo">
+        <a href="#">
+          <img class="logo__image" src="img/logo.svg" width="100" height="64" alt="logo" />
+        </a>
+      </div>
+      <nav class="header__menu menu">
+        <button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list">
+          <svg class="menu__icon" aria-hidden="true" width="32" height="32">
+            <use class="menu__icon-menu" href="img/icons/icons.svg#menu"></use>
+            <use class="menu__icon-cross" href="img/icons/icons.svg#cross"></use>
+          </svg>
+        </button>
+        <ul class="menu__list" id="menu__list">
+          <li class="menu__item">
+            <a class="menu__link menu__link--current" href="#">Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Story</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Gallery</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <div class="menu__btn-box">
+          <button class="menu__btn-link">
+            <img src="img/icons/icons.svg#search-icon" class="menu__profile-icon" width="20" height="20" alt="search-icon" />
+          </button>
+          <a class="menu__btn-link" href="#">
+            <img src="img/icons/icons.svg#profile-icon" class="menu__search-icon" width="20" height="20" alt="search-icon" />
+          </a>
+        </div>
+      </nav>
+    </header>
+  </div>
+</div>
+
+    <main class="blog__page">
+      <div class="blog__container">
+        <!-- Blog header -->
+        <section class="blog-header">
+  <div class="blog-header__wrapper">
+    <div class="blog-header__wrap-title">
+      <h2 class="blog-header__subtitle">popular destinations</h2>
+      <h1 class="blog-header__title">Hello Switzerland!</h1>
+    </div>
+
+    <div class="blog-header__wrap-author">
+      <div class="author">
+        <picture><source srcset="img/avatar.webp"type="image/webp"><img class="author__avatar" src="img/avatar.jpg" alt="avatar" /></picture>
+        <div class="author__wrap">
+          <span class="author__name">Darrell Steward</span>
+          <div class="author__metier">Author / Photographer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video -->
+  <div class="video">
+    <a class="video__link" href="https://youtu.be/dQw4w9WgXcQ">
+      <picture><source srcset="img/video.webp"type="image/webp"><img class="video__media" src="img/video.jpg" alt="video" /></picture>
+    </a>
+    <button class="video__button" aria-label="Запустить видео">
+      <svg width="104" height="104" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle class="video__button-shape" cx="18" cy="18" r="18" fill="#8A53FF" />
+        <path class="video__button-icon" d="M24.4142 16.4267C25.7475 17.1965 25.7475 19.121 24.4142 19.8908L15.8164 24.8547C14.4831 25.6245 12.8164 24.6623 12.8164 23.1227L12.8164 13.1949C12.8164 11.6553 14.4831 10.693 15.8164 11.4628L24.4142 16.4267Z" fill="white" />
+      </svg>
+    </button>
+  </div>
+</section>
+
+        <!-- Blog story -->
+        <section class="blog-story">
+  <h3 class="blog-story__title">Our Swiss adventure story</h3>
+  <p class="blog-story__text-top">
+    Location location location! Zermatt Switzerland offers majestic landscapes that cannot be seen elsewhere. The Matterhorn for example. This peak is a sight to behold and seeing it upclose is more magical that we’ve ever imagined. ‘Want to enjoy a nice and cozy swiss breakfast! Well, Zermatt will
+    never fail you.
+  </p>
+  <div class="blog-story__content">
+    <div class="blog-story__content-gallery" id="lightgallery">
+      <a class="blog-story__gallery-item" src="img/swiss-winter.jpg">
+        <picture><source srcset="img/swiss-winter.webp"type="image/webp"><img class="blog-story__gallery-img" src="img/swiss-winter.jpg" alt="Switzerland winter" /></picture>
+      </a>
+
+      <a class="blog-story__gallery-item" src="img/switzerland-mountains.jpg">
+        <picture><source srcset="img/switzerland-mountains.webp"type="image/webp"><img class="blog-story__gallery-img" src="img/switzerland-mountains.jpg" alt="Switzerland mountains" /></picture>
+      </a>
+
+      <a class="blog-story__gallery-item" src="img/switzerland-sunset.jpg">
+        <picture><source srcset="img/switzerland-sunset.webp"type="image/webp"><img class="blog-story__gallery-img" src="img/switzerland-sunset.jpg" alt="Switzerland sunset" /></picture>
+      </a>
+    </div>
+    <div class="blog-story__content-quote">
+      <h4 class="blog-story__content-title">One of the best hikes we’ve done so far...</h4>
+      <p class="blog-story__content-text">
+        As one of the alpine countries, landlocked Switzerland with her mountains has to compete not only with her neighbours but with other destinations. There are, e.g., no coastal resorts. <br /><br />The advantage is that tourism in Switzerland benefits of a large diversity of beautiful
+        landscapes in a relatively small space.
+      </p>
+      <button class="btn">View full gallery</button>
+    </div>
+  </div>
+  <p class="blog-story__text-bottom">
+    The advantage is that tourism in Switzerland benefits of a large diversity of beautiful landscapes in a relatively small space, offering many possibilities for various activities all the year round, in all seasons, although primarily in summer and winter. The offers of nature as well as culture
+    are manifold, but unfortunately price levels throughout the country are high, and this can discourage many people from visiting. Despite this major drawback, millions of visitors from all over the world arrive(d) every year.
+  </p>
+</section>
+
+        <!-- Blog moment -->
+        <section class="blog-moment">
+  <h3 class="blog-moment__title">Hightlights</h3>
+  <div class="blog-moment__photo" id="hightlights">
+    <div class="blog-moment__photo-wrap" data-src="img/barns-built.jpg">
+      <picture><source srcset="img/barns-built.webp"type="image/webp"><img class="blog-moment__photo-img" src="img/barns-built.jpg" alt="The barns built in the 13th and 14th century" /></picture>
+      <span class="blog-moment__photo-title">The barns built in the 13th and 14th century</span>
+    </div>
+
+    <div class="blog-moment__photo-wrap" data-src="img/bernina.jpg">
+      <picture><source srcset="img/bernina.webp"type="image/webp"><img class="blog-moment__photo-img" src="img/bernina.jpg" alt="Riding the the amazing Bernina Express" /></picture>
+      <span class="blog-moment__photo-title">Riding the the amazing Bernina Express</span>
+    </div>
+
+    <div class="blog-moment__photo-wrap" data-src="img/glacier.jpg">
+      <picture><source srcset="img/glacier.webp"type="image/webp"><img class="blog-moment__photo-img" src="img/glacier.jpg" alt="The Matterhorn glacier cable car ride" /></picture>
+      <span class="blog-moment__photo-title">The Matterhorn glacier cable car ride</span>
+    </div>
+  </div>
+  <div class="blog-moment__disclaimer">
+    <span class="blog-moment__disclaimer-title">Disclaimer</span>
+    <p class="blog-moment__disclaimer-text">
+      The COVID-19 pandemic has dealt a severe blow to the tourism business in Switzerland. Although it is a minor position in the Swiss export balance, it is nevertheless of considerable importance for those regions of the country that attract domestic and foreign visitors. As a consequence of the
+      lockdown measures, combined with close borders and travel bans, tourism collapsed and only briefly and partly recovered in summer. Its future is uncertain and depends on people’s (future guests’) attitudes and decisions as much as on the economy, political measures and, of course, the progress
+      of the pandemic.
+    </p>
+  </div>
+</section>
+
+      </div>
+      <!-- Community section -->
+      <section class="section__community">
+  <div class="container">
+    <div class="community__wrapper">
+      <h2 class="community__title">Let’s build a community</h2>
+      <h3 class="community__subtitel">Join our next destination</h3>
+      <form class="community__form" action="#" method="post">
+        <h3 class="form__title">Share your travels</h3>
+        <p class="form__text">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+        <input class="form__input _req" type="text" name="destination_name" placeholder="Destination name" value="" />
+        <div class="form__select-wrap">
+          <select class="form__input form__select _req" name="country">
+            <option value="">--Please choose an option--</option>
+            <option value="russia">Russia</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+          </select>
+        </div>
+        <input class="form__input _req" type="text" name="your_name" placeholder="Your name" value="" />
+        <div class="form__select-wrap">
+          <select class="form__input form__select _req" name="category">
+            <option value="">--Please choose an option--</option>
+            <option value="photo">Photo</option>
+            <option value="video">Video</option>
+            <option value="all">All</option>
+          </select>
+        </div>
+        <textarea value="textarea" class="form__input" name="textarea" cols="30" rows="3" placeholder="Describe what kind of photos you want to focus on"></textarea>
+        <button class="btn form__btn" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <!-- Footer -->
+    <footer class="page__footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <p class="footer__copyright">© 2022, Talking Travel. All Rights Reserved.</p>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Home</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Gallery</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="js/app.min.js?_v=20220301143718"></script>
+  </body>
+</html>

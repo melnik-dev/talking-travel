@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="mask-icon" href="mask-icon.svg" color="#000000" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <link rel="stylesheet" href="css/style.min.css?_v=20220301143718" />
+  <title>Главная</title>
+</head>
+
+  <body>
+    <!-- Header -->
+    <div class="header__shadow">
+  <div class="container px-20">
+    <header class="header">
+      <div class="header__logo">
+        <a href="#">
+          <img class="logo__image" src="img/logo.svg" width="100" height="64" alt="logo" />
+        </a>
+      </div>
+      <nav class="header__menu menu">
+        <button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list">
+          <svg class="menu__icon" aria-hidden="true" width="32" height="32">
+            <use class="menu__icon-menu" href="img/icons/icons.svg#menu"></use>
+            <use class="menu__icon-cross" href="img/icons/icons.svg#cross"></use>
+          </svg>
+        </button>
+        <ul class="menu__list" id="menu__list">
+          <li class="menu__item">
+            <a class="menu__link menu__link--current" href="#">Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Story</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Gallery</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <div class="menu__btn-box">
+          <button class="menu__btn-link">
+            <img src="img/icons/icons.svg#search-icon" class="menu__profile-icon" width="20" height="20" alt="search-icon" />
+          </button>
+          <a class="menu__btn-link" href="#">
+            <img src="img/icons/icons.svg#profile-icon" class="menu__search-icon" width="20" height="20" alt="search-icon" />
+          </a>
+        </div>
+      </nav>
+    </header>
+  </div>
+</div>
+
+    <main class="main__page">
+      <!-- Main header -->
+      <section class="main_header">
+  <div class="container">
+    <div class="main__header-content">
+      <h1 class="main__header-titel"><span>Let’s talk</span> about your next trip!</h1>
+      <p class="main__header-text">Share your favorite travel destination and we will feature it in our next blog!</p>
+      <div class="main__header-box">
+        <button class="btn">Share your story</button>
+        <a class="main__header-watch-link" href="#">
+          <img src="img/icons/icons.svg#play-icon-light" class="play-icon-light" alt="play-icon-light" width="36" height="36" />
+          Watch highlights</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Destination section -->
+      <section class="section__dest">
+  <div class="container">
+    <div class="dest__wrapper">
+      <div class="dest__img" id="fullimg">
+        <a href="img/destination-img.jpg">
+          <picture><source srcset="img/destination-img.webp"type="image/webp"><img src="img/destination-img.jpg" alt="destination" /></picture>
+        </a>
+      </div>
+      <div class="dest__content">
+        <h2 class="dest__title">Featured Destination</h2>
+        <a class="dest__title-link" href="blog.html">
+          <h3 class="dest__subtitel">Our swiss adventure blog</h3>
+          <p class="dest__text">Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help!</p>
+        </a>
+        <a class="dest__watch-link" href="/">
+          <img src="img/icons/icons.svg#play-icon" class="play-icon" alt="play-icon" width="36" height="36" />
+          Watch Now</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Adventure section -->
+      <section class="section__adventure">
+  <div class="container">
+    <div class="adventure__wrapper">
+      <h2 class="adventure__title">Join our adventures</h2>
+      <h3 class="adventure__subtitle">Discover the world with us</h3>
+      <div class="adventure__card-box">
+        <a class="adventure__card" href="blog.html">
+          <div class="adventure__card-img">
+            <picture><source srcset="img/iceland-img.webp"type="image/webp"><img src="img/iceland-img.jpg" alt="iceland" /></picture>
+          </div>
+          <h4 class="adventure__card-title">Iceland</h4>
+          <span class="adventure__card-subtitle">Discover</span>
+        </a>
+
+        <a class="adventure__card" href="blog.html">
+          <div class="adventure__card-img">
+            <picture><source srcset="img/italy-img.webp"type="image/webp"><img src="img/italy-img.jpg" alt="Italy" /></picture>
+          </div>
+          <h4 class="adventure__card-title">Italy</h4>
+          <span class="adventure__card-subtitle">Discover</span>
+        </a>
+
+        <a class="adventure__card" href="blog.html">
+          <div class="adventure__card-img">
+            <picture><source srcset="img/dubai-img.webp"type="image/webp"><img src="img/dubai-img.jpg" alt="Dubai" /></picture>
+          </div>
+          <h4 class="adventure__card-title">Dubai</h4>
+          <span class="adventure__card-subtitle">Discover</span>
+        </a>
+
+        <a class="adventure__card" href="blog.html">
+          <div class="adventure__card-img">
+            <picture><source srcset="img/patagonia-img.webp"type="image/webp"><img src="img/patagonia-img.jpg" alt="Patagonia" /></picture>
+          </div>
+          <h4 class="adventure__card-title">Patagonia</h4>
+          <span class="adventure__card-subtitle">Discover</span>
+        </a>
+
+        <a class="adventure__card" href="blog.html">
+          <div class="adventure__card-img">
+            <picture><source srcset="img/iceland-img.webp"type="image/webp"><img src="img/iceland-img.jpg" alt="iceland" /></picture>
+          </div>
+          <h4 class="adventure__card-title">Iceland</h4>
+          <span class="adventure__card-subtitle">Discover</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Community section -->
+      <section class="section__community">
+  <div class="container">
+    <div class="community__wrapper">
+      <h2 class="community__title">Let’s build a community</h2>
+      <h3 class="community__subtitel">Join our next destination</h3>
+      <form class="community__form" action="#" method="post">
+        <h3 class="form__title">Share your travels</h3>
+        <p class="form__text">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+        <input class="form__input _req" type="text" name="destination_name" placeholder="Destination name" value="" />
+        <div class="form__select-wrap">
+          <select class="form__input form__select _req" name="country">
+            <option value="">--Please choose an option--</option>
+            <option value="russia">Russia</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+          </select>
+        </div>
+        <input class="form__input _req" type="text" name="your_name" placeholder="Your name" value="" />
+        <div class="form__select-wrap">
+          <select class="form__input form__select _req" name="category">
+            <option value="">--Please choose an option--</option>
+            <option value="photo">Photo</option>
+            <option value="video">Video</option>
+            <option value="all">All</option>
+          </select>
+        </div>
+        <textarea value="textarea" class="form__input" name="textarea" cols="30" rows="3" placeholder="Describe what kind of photos you want to focus on"></textarea>
+        <button class="btn form__btn" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      <!-- Section posts -->
+      <section class="section__posts">
+  <div class="container">
+    <div class="posts__wrapper">
+      <h2 class="posts__title">catch up to our posts</h2>
+      <h3 class="posts__subtitle">Recent story entries</h3>
+      <div class="posts__content">
+        <a class="posts__main" href="blog.html">
+          <div class="posts__post">
+            <div class="post__img">
+              <picture><source srcset="img/post-zermatt.webp"type="image/webp"><img src="img/post-zermatt.jpg" alt="Zermatt" /></picture>
+            </div>
+            <div class="post__title-wrap">
+              <div class="posts__main-title-wrap">
+                <h4 class="post__title">Zermatt, Switzerland</h4>
+                <p class="post__text">Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</p>
+              </div>
+              <img src="img/icons/icons.svg#play-icon" class="play-icon" alt="play-icon" width="48" height="48" />
+            </div>
+          </div>
+        </a>
+
+        <div class="posts__list">
+          <a href="blog.html">
+            <div class="posts__post">
+              <div class="post__img">
+                <picture><source srcset="img/post-tuscany.webp"type="image/webp"><img src="img/post-tuscany.jpg" alt="Tuscany" /></picture>
+              </div>
+              <div class="post__title-wrap">
+                <h4 class="post__title">Tuscany, Italy</h4>
+                <p class="post__text">The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape.</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="blog.html">
+            <div class="posts__post">
+              <div class="post__img">
+                <picture><source srcset="img/post-kyoto.webp"type="image/webp"><img src="img/post-kyoto.jpg" alt="Kyoto" /></picture>
+              </div>
+              <div class="post__title-wrap">
+                <h4 class="post__title">Kyoto, Japan</h4>
+                <p class="post__text">Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It’s time to visit tokyo.</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="blog.html">
+            <div class="posts__post">
+              <div class="post__img">
+                <picture><source srcset="img/post-lofoten.webp"type="image/webp"><img src="img/post-lofoten.jpg" alt="Lofoten" /></picture>
+              </div>
+              <div class="post__title-wrap">
+                <h4 class="post__title">Lofoten Islands, Norway</h4>
+                <p class="post__text">Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <!-- Footer -->
+    <footer class="page__footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <p class="footer__copyright">© 2022, Talking Travel. All Rights Reserved.</p>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Home</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Gallery</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="js/app.min.js?_v=20220301143718"></script>
+  </body>
+</html>
